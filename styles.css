@@ -1,0 +1,31 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   text-align: center;
+   background-color: #AFBE8F;
+}
+
+h1 {
+   background-color: #255957;
+   color: #7C99B4;
+   padding: 20px;
+   font-style: italic;
+   border: 4px #0D0221 solid;
+   margin-bottom: 0px ;
+}
+
+ul{
+   list-style: none;
+}
+
+td, th{
+   background-color: #255957;
+   border: 3px #293F14 solid;
+}
+
+#items {
+   
+}
