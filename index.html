@@ -15,90 +15,154 @@
 
 <body>
   <h1>Howards Lakeside General Store</h1>
+
   <img src="images/fly-fishing.webp" alt="Fishing in a river" id="hero" class="img-fluid">
-  <p>Welcome to Howards general store.</p>
+
+  <h2>Welcome to Howards general store.</h2>
+  <p>At Howard's Lakeside General Store, we're more than just a bait shop — we're a family-run hub for outdoor
+    enthusiasts in Springfield, Ohio.</p>
+  <!--Thanks Chuck-->
   <div id="items">
     <h4> We have: </h4>
-    <ul>
-      <li>Live bait</li>
-      <li>Tackle</li>
-      <li>Hunting/Fishing Licences</li>
-      <li>Camping Supplies</li>
-      <li>Firewood</li>
-      <li>Drinks</li>
-      <li>Snacks</li>
-    </ul>
+
+    <div class="container text-center">
+      <div class="overflow-x-scroll">
+        <div class="row align-items-end">
+          <div class="col-4">
+            Live bait
+          </div>
+          <div class="col-4">
+            Tackle
+          </div>
+          <div class="col-4">
+            Hunting/Fishing Licences
+          </div>
+          <div class="col-4">
+            Camping Supplies
+          </div>
+          <div class="col-4">
+            Firewood
+          </div>
+          <div class="col-4">
+            Drinks/Snacks
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
+  <div id="tables">
+    <div class="overflow-x-scroll">
+      <div class="container">
+        <h3>Bait</h3>
+        <table class="table.sm">
+          <thead>
+            <tr>
+              <th scope="col">Live Bait</th>
+              <th scope="col">Price</th>
+              <th scope="col">Cold Bait</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row">Redworm</td>
+              <td>$3.45/24 ct.</td>
+              <td>Skipjack</td>
+              <td>$8.00</td>
+            </tr>
+            <tr>
+              <td scope="row">Night Crawlers</td>
+              <td>$2.80/12 ct.</td>
+              <td>Shad</td>
+              <td>$6.00</td>
+            </tr>
+            <tr>
+              <td scope="row">Glow Worms</td>
+              <td>$3.25/12 ct.</td>
+              <td>Strawberry/Cherry/Liver</td>
+              <td>$3.00/ Tub</td>
+            </tr>
+            <tr>
+              <td scope="row">Wax Worms</td>
+              <td>$2.80/50 ct.</td>
+              <td>Shrimp</td>
+              <td>$4.50/Tub</td>
+            </tr>
+            <tr>
+              <td scope="row">Leeches</td>
+              <td>$4.00/12ct.</td>
+              <td>Corn</td>
+              <td>$1.00/Tub</td>
+            </tr>
 
-  <div class="container">
-    <h3>Bait</h3>
-    <table class="table">
-      <thead>
-        <tr>
-          <th scope="col">Live Bait</th>
-          <th scope="col">Price</th>
-          <th scope="col">Cold Bait</th>
-          <th scope="col">Price</th>
-          <th scope="col">Live Fish</th>
-          <th scope="col">Price</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td scope="row">Redworm</td>
-          <td>$3.45/24 ct.</td>
-          <td>Skipjack</td>
-          <td>$8.00</td>
-          <td>Crappie Minnow</td>
-          <td>$2.00/12 ct.</td>
-        </tr>
-        <tr>
-          <td scope="row">Night Crawlers</td>
-          <td>$2.80/12 ct.</td>
-          <td>Shad</td>
-          <td>$6.00</td>
-          <td>Bass Minnow</td>
-          <td>$2.20/12 ct.</td>
-        </tr>
-        <tr>
-          <td scope="row">Glow Worms</td>
-          <td>$3.25/12 ct.</td>
-          <td>Strawberry/Cherry/Liver</td>
-          <td>$3.00/ Tub</td>
-          <td>Goldfish(Small/Large)</td>
-          <td>$2.00/$3.00 each</td>
-        </tr>
-        <tr>
-          <td scope="row">Wax Worms</td>
-          <td>$2.80/50 ct.</td>
-          <td>Shrimp</td>
-          <td>$4.50/Tub</td>
-          <td>Catfish(Small, Medium, Large)</td>
-          <td>$1.50/$3.00/$4.50</td>
-        </tr>
-        <tr>
-          <td scope="row">Leeches</td>
-          <td>$4.00/12ct.</td>
-          <td>Corn</td>
-          <td>$1.00/Tub</td>
-        </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
 
-      </tbody>
-    </table>
+
+
+    <div class="container" id="t2">
+      <h3>Live Bait</h3>
+      <table class="table.sm">
+        <thead>
+          <tr>
+            <th scope="col">Live Fish</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Crappie Minnow</td>
+            <td>$2.00/12 ct.</td>
+          </tr>
+          <tr>
+            <td>Bass Minnow</td>
+            <td>$2.20/12 ct.</td>
+          </tr>
+          <tr>
+            <td>Goldfish(Small/Large)</td>
+            <td>$2.00/$3.00 each</td>
+          </tr>
+          <tr>
+            <td>Catfish(Small, Medium, Large)</td>
+            <td>$1.50/$3.00/$4.50</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+    <p>Prices and availability may change</p>
+  </div>
+  <div id="staff">
+   <p>Whether you're a seasoned angler or just starting out, our friendly and knowledgeable staff are here to assist
+      you.</p>
   </div>
 
-  <p>Prices and availability may change</p>
+  <div id="spool">
+    <p>We offer respooling services. Leave your broken down reels with us and within 24 hours we will have them
+      respooled
+      to your liking. </p>
+  </div>
 
-  <p>We offer respooling services. Leave your broken down reels with us and within 24 hours we will have them respooled
-    to your liking. </p>
+  <img src="images/Fishing-Pole.webp" alt="Fishing Pole" class="img-fluid">
 
 
+
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3058.712501677323!2d-83.75109692434692!3d39.947820071518876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883f51b95f2a40cd%3A0x40e5a9ae8c085ffd!2s1919%20Croft%20Rd%2C%20Springfield%2C%20OH%2045503!5e0!3m2!1sen!2sus!4v1746046862569!5m2!1sen!2sus"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <p>Come visit us and experience the personal touch that sets us apart.​</p>
   <footer>
     <p>Loacated at: 1919 Croft Rd Springfield, Ohio 45503</p>
     <p>Email: <a href="mailto:HowardsLakeside@Gmail.com">HowardsLakeside@Gmail.com</a></p>
     <p>Phone: <a href="tel:1937505-1037">(937)505-1037</a></p>
   </footer>
 </body>
+<!--I am moving on the first, so I haven't had as much time as I would like on this assignment. I did my best using the time I had, but its been a really busy couple of weeks-Kaydence-->
 
 </html>
