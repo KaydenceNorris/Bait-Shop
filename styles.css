@@ -25,13 +25,12 @@ h1 {
 }
 
 #tables {
-   border: 2px #0D0221 solid;
    background-color: #7C99B4;
+   
 }
 
 #tables p {
    font-size: 15px;
-   padding: 0PX;
 }
 
 #items {
@@ -60,7 +59,8 @@ img {
 }
 
 .table.sm {
-   display: inline-block;
+   display: block;
+   margin: auto;
 }
 
 #t2 {
@@ -75,7 +75,8 @@ td, th{
 }
 
 .container{
-   padding-left: 0px;
+   margin-left: auto;
+   margin-right: auto;
    text-align: center;
 }
 
@@ -86,6 +87,7 @@ td, th{
 }
 
 iframe {
+   width: 100%;
    display: inline;
 }
 
